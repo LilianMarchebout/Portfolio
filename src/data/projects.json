@@ -1,0 +1,75 @@
+[
+  {
+    "id": "lifegame",
+    "title": "Life Game",
+    "url": "https://gitlab.com/Nalil10/life-game",
+    "description": "Un projet de simulation de vie s'inspirant du jeu de la vie de John Horton Conway et a pour but de l'étendre par différents aspects.",
+    "image": "images/lifegame.png",
+    "tags": ["Simulation", "C++", "Algorithmique"]
+  },
+  {
+    "id": "raytracing",
+    "title": "Raytracing Project",
+    "url": "https://github.com/vosketalor/raytracing",
+    "description": "Un projet personnel en C++ d'un moteur de raytracing physiquement basé, simulant le transport de la lumière pour générer des images réalistes à partir de scènes 3D.",
+    "image": "images/raytracing.png",
+    "tags": ["C++", "ImGui", "Raytracing", "GLSL"]
+  },
+  {
+    "id": "loveletter",
+    "title": "Love Letter",
+    "url": "https://github.com/LilianMarchebout/LoveLetter2",
+    "description": "Un projet qui reprend le jeu de société Love Letter afin de pouvoir y jouer en console et de faire des statistiques dessus.",
+    "image": "images/loveletter.jpg",
+    "tags": ["Java", "Jeu", "Statistiques"]
+  },
+  {
+    "id": "bzzzzzzzz",
+    "title": "Bzzzzzzzz",
+    "url": "https://vousque.itch.io/bzzzzzzzz",
+    "description": "Vous êtes une p'tite abeille toute sympa et pour une raison parfaitement aléatoire (qu'on taira) PATATRA, votre femme, votre fils et votre domaine s'envolent !",
+    "image": "images/bzzzzzzzz.png",
+    "tags": ["Game Jam", "Godot", "GDScript"]
+  },
+  {
+    "id": "stardew",
+    "title": "Stardew Valley Graph Visualizer",
+    "url": "https://github.com/LilianMarchebout/Stardew-Graph",
+    "description": "Une application web interactive qui permet de visualiser les réseaux de recettes d’artisanat et de cuisine du jeu Stardew Valley, facilitant la navigation entre ingrédients et produits finis.",
+    "image": "images/stardew.png",
+    "tags": ["Jeu", "Graphe", "Web"]
+  },
+  {
+    "id": "chess2",
+    "title": "Chess 2",
+    "url": "https://github.com/Phileas-Afchain-Boucher/Chess-2",
+    "description": "Un projet de jeu d'échec pouvant se jouer en réseau local.",
+    "image": "images/chess2.png",
+    "tags": ["C", "Réseau", "Jeu", "SDL"]
+  },
+  {
+    "id": "kartcrous",
+    "title": "Kart Crous",
+    "url": "https://itch.io/jam/gamejam-lesi-2024/rate/3131063",
+    "description": "Dans un monde où les bases olympiques ont été renversées, l'illustre Crous dévoile une arène de combat où s'affrontent les athlètes au volants de véhicules.",
+    "image": "images/kart.png",
+    "tags": ["Game Jam", "Unity", "C#"]
+  },
+  {
+    "id": "tennistracker",
+    "title": "Tennis Tracker",
+    "url": "https://gitlab.com/Nalil10/tennis-tracker",
+    "description": "Une application Android en Java pour suivre les scores et statistiques des matchs de tennis en temps réel, avec historique des matchs et statistiques avancées.",
+    "image": "images/tennistracker.png",
+    "tags": ["Java", "Android", "Sport"]
+  },
+
+  {
+    "id": "portfolio",
+    "title": "Portfolio",
+    "url": "https://github.com/LilianMarchebout/Portfolio",
+    "description": "Un projet permettant de mettre en œuvre ce site.",
+    "image": "/images/portfolio.jpg",
+    "tags": ["React", "Vite", "Web"]
+  }
+]

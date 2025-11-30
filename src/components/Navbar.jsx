@@ -15,6 +15,14 @@ function Navbar({ currentPage, setCurrentPage }) {
 
                     <a
                         href="#"
+                        onClick={(e) => { e.preventDefault(); setCurrentPage('cv'); }}
+                        className={currentPage === 'cv' ? 'active' : ''}
+                    >
+                        CV
+                    </a>
+
+                    <a
+                        href="#"
                         onClick={(e) => { e.preventDefault(); setCurrentPage('about'); }}
                         className={currentPage === 'about' ? 'active' : ''}
                     >

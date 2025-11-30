@@ -438,6 +438,76 @@ footer a:hover {
     opacity: 0.3;
 }
 
+/* ===== CV Page ===== */
+.cv-container {
+    height: calc(100vh - 200px);
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.cv-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.cv-header h2 {
+    margin: 0;
+}
+
+.cv-download-btn {
+    background-color: var(--accent-primary);
+    color: var(--text-primary);
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    transition: var(--transition);
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.cv-download-btn:hover {
+    background-color: var(--accent-hover);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+}
+
+.cv-viewer {
+    flex: 1;
+    background-color: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    overflow: hidden;
+    min-height: 600px;
+}
+
+.cv-viewer iframe {
+    border: none;
+    display: block;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .cv-container {
+        height: auto;
+    }
+
+    .cv-viewer {
+        min-height: 500px;
+    }
+
+    .cv-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
 /* ===== Animations ===== */
 @keyframes fadeIn {
     from {

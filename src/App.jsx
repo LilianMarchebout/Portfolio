@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Home from './pages/Home'
 import About from './pages/About'
+import CV from './pages/CV'
 
 function App() {
     const [currentPage, setCurrentPage] = useState('home')
@@ -11,6 +12,8 @@ function App() {
         switch(currentPage) {
             case 'home':
                 return <Home />
+            case 'cv':
+                return <CV />
             case 'about':
                 return <About />
             default:

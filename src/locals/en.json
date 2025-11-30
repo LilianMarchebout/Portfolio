@@ -1,0 +1,23 @@
+{
+  "nav": {
+    "projects": "Projects",
+    "about": "About",
+    "cv": "Resume"
+  },
+  "home": {
+    "title": "My Projects",
+    "text": "These projects are solely personal projects done in my spare time; they are in no way college or school projects.",
+    "viewProject": "View project"
+  },
+  "about": {
+    "title": "About Me",
+    "intro": "I am Lilian Marchebout, a Master 1 Computer Science student, specializing in Software Design at the University of Poitiers. Since high school, I have developed a passion for computer science, which led me to specialize in backend development.",
+    "goal": "My professional goal is to work in the research sector, where I could use computer science to solve complex problems in fields such as computational biology, physical simulations, or other scientific applications.",
+    "interest": "I am particularly interested in using computer science to model and analyze complex scientific phenomena, emphasizing system efficiency and result accuracy. My ambition is to join a research project where computer science plays a key role in scientific innovation.",
+    "linkedin": "You can check my LinkedIn profile for more information about my background and skills."
+  },
+  "cv": {
+    "title": "My Resume",
+    "download": "Download Resume"
+  }
+}

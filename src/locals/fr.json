@@ -1,0 +1,23 @@
+{
+  "nav": {
+    "projects": "Projets",
+    "about": "À propos",
+    "cv": "CV"
+  },
+  "home": {
+    "title": "Mes Projets",
+    "text": "Ces projets sont uniquement des projets personnels fait sur mon temps libre, ce ne sont en aucun cas des projets de fac ou d'école.",
+    "viewProject": "Voir le projet"
+  },
+  "about": {
+    "title": "À propos de moi",
+    "intro": "Je suis Lilian Marchebout, étudiant en Master 1 Informatique, parcours Conception Logicielle à l'Université de Poitiers. Depuis mon lycée, j'ai développé une passion pour l'informatique, ce qui m'a poussé à me spécialiser dans le développement backend.",
+    "goal": "Mon objectif professionnel est de travailler dans le secteur de la recherche, où je pourrais utiliser l'informatique pour résoudre des problèmes complexes dans des domaines tels que la biologie computationnelle, les simulations physiques ou d'autres applications scientifiques.",
+    "interest": "Je suis particulièrement intéressé par l'utilisation de l'informatique pour modéliser et analyser des phénomènes scientifiques complexes, en mettant l'accent sur l'efficacité des systèmes et la précision des résultats. Mon ambition est de rejoindre un projet de recherche où l'informatique joue un rôle clé dans l'innovation scientifique.",
+    "linkedin": "Vous pouvez consulter mon profil LinkedIn pour plus d'informations sur mon parcours et mes compétences."
+  },
+  "cv": {
+    "title": "Mon CV",
+    "download": "Télécharger le CV"
+  }
+}

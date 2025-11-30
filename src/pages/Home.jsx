@@ -1,11 +1,14 @@
 import ProjectCard from '../components/ProjectCard'
 import projectsData from '../data/projects.json'
+import { useTranslation } from '../hooks/useTranslation'
 
 function Home() {
+
+    const { t } = useTranslation()
     return (
         <>
-            <h2>Mes Projets</h2>
-            <p>Ces projets sont uniquement des projets personnels fait sur mon temps libre, ce ne sont en aucun cas des projets de fac ou d'école.</p>
+            <h2>{t('home.title')}</h2>
+            <p>{t('home.text')}</p>
             <div className="projects-grid">
                 {projectsData.map((project) => (
                     <ProjectCard

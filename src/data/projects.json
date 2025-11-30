@@ -3,7 +3,10 @@
     "id": "lifegame",
     "title": "Life Game",
     "url": "https://gitlab.com/Nalil10/life-game",
-    "description": "Un projet de simulation de vie s'inspirant du jeu de la vie de John Horton Conway et a pour but de l'étendre par différents aspects.",
+    "description": {
+      "fr": "Un projet de simulation de vie s'inspirant du jeu de la vie de John Horton Conway et a pour but de l'étendre par différents aspects.",
+      "en": "A life simulation project inspired by John Horton Conway's Game of Life, aiming to extend it in various ways."
+    },
     "image": "images/lifegame.png",
     "tags": ["Simulation", "C++", "Algorithmique"]
   },
@@ -11,7 +14,10 @@
     "id": "raytracing",
     "title": "Raytracing Project",
     "url": "https://github.com/vosketalor/raytracing",
-    "description": "Un projet personnel en C++ d'un moteur de raytracing physiquement basé, simulant le transport de la lumière pour générer des images réalistes à partir de scènes 3D.",
+    "description": {
+      "fr": "Un projet personnel en C++ d'un moteur de raytracing physiquement basé, simulant le transport de la lumière pour générer des images réalistes à partir de scènes 3D.",
+      "en": "A personal C++ project of a physically-based ray tracing engine, simulating light transport to generate realistic images from 3D scenes."
+    },
     "image": "images/raytracing.png",
     "tags": ["C++", "ImGui", "Raytracing", "GLSL"]
   },
@@ -19,7 +25,10 @@
     "id": "loveletter",
     "title": "Love Letter",
     "url": "https://github.com/LilianMarchebout/LoveLetter2",
-    "description": "Un projet qui reprend le jeu de société Love Letter afin de pouvoir y jouer en console et de faire des statistiques dessus.",
+    "description": {
+      "fr": "Un projet qui reprend le jeu de société Love Letter afin de pouvoir y jouer en console et de faire des statistiques dessus.",
+      "en": "A project that recreates the board game Love Letter for console play and statistics tracking."
+    },
     "image": "images/loveletter.jpg",
     "tags": ["Java", "Jeu", "Statistiques"]
   },
@@ -27,7 +36,10 @@
     "id": "bzzzzzzzz",
     "title": "Bzzzzzzzz",
     "url": "https://vousque.itch.io/bzzzzzzzz",
-    "description": "Vous êtes une p'tite abeille toute sympa et pour une raison parfaitement aléatoire (qu'on taira) PATATRA, votre femme, votre fils et votre domaine s'envolent !",
+    "description": {
+      "fr": "Vous êtes une p'tite abeille toute sympa et pour une raison parfaitement aléatoire (qu'on taira) PATATRA, votre femme, votre fils et votre domaine s'envolent !",
+      "en": "You are a cute little bee and for some perfectly random reason (we won't say) BOOM, your wife, your son, and your territory fly away!"
+    },
     "image": "images/bzzzzzzzz.png",
     "tags": ["Game Jam", "Godot", "GDScript"]
   },
@@ -35,7 +47,10 @@
     "id": "stardew",
     "title": "Stardew Valley Graph Visualizer",
     "url": "https://github.com/LilianMarchebout/Stardew-Graph",
-    "description": "Une application web interactive qui permet de visualiser les réseaux de recettes d’artisanat et de cuisine du jeu Stardew Valley, facilitant la navigation entre ingrédients et produits finis.",
+    "description": {
+      "fr": "Une application web interactive qui permet de visualiser les réseaux de recettes d’artisanat et de cuisine du jeu Stardew Valley, facilitant la navigation entre ingrédients et produits finis.",
+      "en": "An interactive web application to visualize Stardew Valley's crafting and cooking recipe networks, making navigation between ingredients and finished products easier."
+    },
     "image": "images/stardew.png",
     "tags": ["Jeu", "Graphe", "Web"]
   },
@@ -43,7 +58,10 @@
     "id": "chess2",
     "title": "Chess 2",
     "url": "https://github.com/Phileas-Afchain-Boucher/Chess-2",
-    "description": "Un projet de jeu d'échec pouvant se jouer en réseau local.",
+    "description": {
+      "fr": "Un projet de jeu d'échec pouvant se jouer en réseau local.",
+      "en": "A chess game project that can be played over a local network."
+    },
     "image": "images/chess2.png",
     "tags": ["C", "Réseau", "Jeu", "SDL"]
   },
@@ -51,7 +69,10 @@
     "id": "kartcrous",
     "title": "Kart Crous",
     "url": "https://itch.io/jam/gamejam-lesi-2024/rate/3131063",
-    "description": "Dans un monde où les bases olympiques ont été renversées, l'illustre Crous dévoile une arène de combat où s'affrontent les athlètes au volants de véhicules.",
+    "description": {
+      "fr": "Dans un monde où les bases olympiques ont été renversées, l'illustre Crous dévoile une arène de combat où s'affrontent les athlètes au volants de véhicules.",
+      "en": "In a world where Olympic bases have been overturned, the illustrious Crous unveils a combat arena where athletes battle with vehicle steering wheels."
+    },
     "image": "images/kart.png",
     "tags": ["Game Jam", "Unity", "C#"]
   },
@@ -59,16 +80,21 @@
     "id": "tennistracker",
     "title": "Tennis Tracker",
     "url": "https://gitlab.com/Nalil10/tennis-tracker",
-    "description": "Une application Android en Java pour suivre les scores et statistiques des matchs de tennis en temps réel, avec historique des matchs et statistiques avancées.",
+    "description": {
+      "fr": "Une application Android en Java pour suivre les scores et statistiques des matchs de tennis en temps réel, avec historique des matchs et statistiques avancées.",
+      "en": "An Android Java application to track tennis match scores and statistics in real time, with match history and advanced stats."
+    },
     "image": "images/tennistracker.png",
     "tags": ["Java", "Android", "Sport"]
   },
-
   {
     "id": "portfolio",
     "title": "Portfolio",
     "url": "https://github.com/LilianMarchebout/Portfolio",
-    "description": "Un projet permettant de mettre en œuvre ce site.",
+    "description": {
+      "fr": "Un projet permettant de mettre en œuvre ce site.",
+      "en": "A project to implement this website."
+    },
     "image": "/images/portfolio.jpg",
     "tags": ["React", "Vite", "Web"]
   }

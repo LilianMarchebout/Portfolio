@@ -1,4 +1,11 @@
+import { useLanguage } from '../contexts/LanguageContext'
+
 function ProjectCard({ title, description, image, url, tags = [] }) {
+    const { language } = useLanguage()
+
+    // Gère les descriptions multilingues
+    const displayDescription = typeof description === 'object' ? description[language] : description
+
     return (
         <div className="project-card">
             <div className="project-image">
@@ -26,7 +33,7 @@ function ProjectCard({ title, description, image, url, tags = [] }) {
                     </div>
                 )}
 
-                <p className="project-description">{description}</p>
+                <p className="project-description">{displayDescription}</p>
             </div>
         </div>
     )

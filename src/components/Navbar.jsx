@@ -1,38 +1,43 @@
+import { useTranslation } from '../hooks/useTranslation'
+import LanguageSwitcher from "./LanguageSwitcher";
+
 function Navbar({ currentPage, setCurrentPage }) {
+    const { t } = useTranslation()
+
     return (
-        <nav className="navbar">
+        <div className="navbar">
             <div className="navbar-container">
 
-                {/* Liens à droite */}
                 <div className="navbar-links">
-                    <a
-                        href="#"
-                        onClick={(e) => { e.preventDefault(); setCurrentPage('home'); }}
-                        className={currentPage === 'home' ? 'active' : ''}
-                    >
-                        Accueil
-                    </a>
+                    <div className="navbar-links-left">
+                        <a
+                            href="#"
+                            onClick={(e) => { e.preventDefault(); setCurrentPage('home'); }}
+                            className={currentPage === 'home' ? 'active' : ''}
+                        >
+                            {t('nav.projects')}
+                        </a>
+                        <a
+                            href="#"
+                            onClick={(e) => { e.preventDefault(); setCurrentPage('about'); }}
+                            className={currentPage === 'about' ? 'active' : ''}
+                        >
+                            {t('nav.about')}
+                        </a>
+                        <a
+                            href="#"
+                            onClick={(e) => { e.preventDefault(); setCurrentPage('cv'); }}
+                            className={currentPage === 'cv' ? 'active' : ''}
+                        >
+                            {t('nav.cv')}
+                        </a>
+                    </div>
 
-                    <a
-                        href="#"
-                        onClick={(e) => { e.preventDefault(); setCurrentPage('cv'); }}
-                        className={currentPage === 'cv' ? 'active' : ''}
-                    >
-                        CV
-                    </a>
-
-                    <a
-                        href="#"
-                        onClick={(e) => { e.preventDefault(); setCurrentPage('about'); }}
-                        className={currentPage === 'about' ? 'active' : ''}
-                    >
-                        À propos
-                    </a>
+                    <LanguageSwitcher />
                 </div>
-
             </div>
-        </nav>
-    );
+        </div>
+    )
 }
 
-export default Navbar;
+export default Navbar
